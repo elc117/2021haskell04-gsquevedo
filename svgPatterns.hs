@@ -29,7 +29,7 @@ rgbPalette n = take n $ cycle [(255,0,0),(0,255,0),(0,0,255)]
 
 genRectsInLine :: Int -> [Rect]
 genRectsInLine n  = [((m*(w+gap), 0.0), w, h) | m <- [0..fromIntegral (n-1)]]
-  where (w,h) = (50,50)
+  where (w,h) = (100,80)
         gap = 10
 
 
