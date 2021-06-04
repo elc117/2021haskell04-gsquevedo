@@ -22,11 +22,3 @@ genCircs n (cx,cy) raio = [(x,cy,raio) | x <- take n[cx,cx+3*raio..]]
 genReds :: Int -> [(Int,Int,Int)]
 genReds x = [(x,0,0) | x <- take x [80,80+10..]]
 
-
-
-
-
-
-
-
-
