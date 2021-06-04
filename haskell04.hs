@@ -13,6 +13,9 @@ faixaIdoso x
 classifIdosos :: [(String,Int)] -> [(String,Int,String)] 
 classifIdosos x = [(a,b,faixaIdoso b) | (a,b) <- x]
 
+classifIdosos' :: [(String,Int)] -> [(String,Int,String)] 
+classifIdosos' x = map(\(a,b) -> (a,b,faixaIdoso b))x
+
 strColor :: (Int,Int,Int) -> String
 strColor (a,b,c) = "rgb"++show(a,b,c)
 
