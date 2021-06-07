@@ -49,11 +49,11 @@ genCirclesInLine n  = [((x,y), r) | m <- [0..fromIntegral (n-1)]]
         x = 500
 
 genTriangleInLine :: Int -> [Triangle]
-genTriangleInLine n = [((800,100),(350,500),(800,750)) | m <- [0..fromIntegral (n-1)]]
+genTriangleInLine n = [((50,0),(50,500),(500,500)) | m <- [0..fromIntegral (n-1)]]
   where gap = 100
 
 genTrianguloInLine :: Int -> [Triangle]
-genTrianguloInLine n = [((650,450),(0,650),(0,150)) | m <- [0..fromIntegral (n-1)]]
+genTrianguloInLine n = [((750,0),(750,800),(250,500)) | m <- [0..fromIntegral (n-1)]]
   where gap = 100
 
 genEstrelaInLine :: Int -> [Estrela]
