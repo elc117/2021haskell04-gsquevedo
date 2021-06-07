@@ -45,7 +45,7 @@ genCirclesInLine :: Int -> [Circle]
 genCirclesInLine n  = [((x,y), r) | m <- [0..fromIntegral (n-1)]]
   where r = 50
         gap = 10
-        y = 350
+        y = 100
         x = 500
 
 genTriangleInLine :: Int -> [Triangle]
