@@ -1,0 +1,7 @@
+<svg width='800.00' height='500.00' xmlns='http://www.w3.org/2000/svg'>
+<rect x='50.000' y='50.000' width='150.00' height='150.00' style='fill:rgb(55,255,15); mix-blend-mode: luminosity;' />
+<polygon points = '750.000,0.000 750.000,800.000 250.000,500.000' style='fill:rgb(100,0,0); stroke-width:2; stroke:rgb(0,0,0);' />
+<circle cx='500.000' cy='100.000' r='50.000' fill='rfill:gb(50,0,0); mix-blend-mode: screen'  stroke='yellow' stroke-width='100'/>
+<polygon points = '50.000,0.000 50.000,500.000 500.000,500.000' style='fill:rgb(100,0,0); stroke-width:2; stroke:rgb(0,0,0);' />
+<polygon points='230.000,140.000 170.000,328.000 320.000,208.000 140.000,208.000 290.000,328.000' style='fill:rgb(155,0,0); stroke-width:2; stroke:rgb(0,0,0);'/>
+</svg>
